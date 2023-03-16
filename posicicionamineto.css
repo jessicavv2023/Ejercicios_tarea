@@ -1,0 +1,66 @@
+.box {
+  display: inline-block;
+  width: 100px; /*Ancho*/
+  height: 100px; /*Altura*/
+  background: rgb(255, 254, 192); /*Fondo*/
+  color: rgb(0, 0, 0); /*Color texto*/
+  border-radius: 5px;
+  writing-mode: vertical-lr;
+  border: 5px solid rgb(235, 205, 226);
+}
+#Zero {
+  position: fixed;
+  top: 80px;
+  left: 80px;
+  background-color: rgb(136, 222, 201);
+  width: 90px; /*Ancho*/
+  height: 90px; /*Altura*/
+  writing-mode: horizontal-tb;
+}
+#Zero1 {
+  position: fixed;
+  top: 250px;
+  left: 80px;
+  background-color: rgb(168, 222, 136);
+  width: 90px; /*Ancho*/
+  height: 90px; /*Altura*/
+  writing-mode: horizontal-tb;
+}
+#two {
+  position: relative;
+  top: 20px;
+  left: 22px;
+  background-color: rgb(136, 222, 201);
+  width: 90px; /*Ancho*/
+  height: 90px; /*Altura*/
+}
+
+#three {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  background-color: rgb(206, 136, 222);
+  width: 80px; /*Ancho*/
+  height: 80px; /*Altura*/
+}
+#four {
+  position: relative;
+  top: 80px;
+  left: 80px;
+  background-color: rgba(136, 172, 222, 0.884);
+  width: 80px; /*Ancho*/
+  height: 80px; /*Altura*/
+}
+
+.texto1 {
+  width: 500px;
+  height: 800px;
+  padding-left: 250px;
+  overflow: scroll;
+  background-color: rgba(173, 216, 230, 0.725);
+  padding-right: 250px;
+}
+p {
+  text-align: left;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
